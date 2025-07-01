@@ -1,9 +1,9 @@
-package cdg.DesafioLiteratura.Literatura.Modelo;
+package cdg.DesafioLiteratura.Literatura.DTO;
 
 import java.util.List;
 
 public record RespuestaAPI(int count,
                            String next,
                            String previous,
-                           List<DatosLibro> results) {
+                           List<DatosLibros> results) {
 }
